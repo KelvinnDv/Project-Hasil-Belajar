@@ -1,0 +1,82 @@
+*,
+html {
+    margin: 0;
+    padding: 0 ;
+}
+
+
+
+
+img {
+    width: 687px;
+    height: auto;
+    border: solid black 3px;
+    border-radius: 0 50px 0 50px;
+    
+}
+
+body {
+    background-color: silver ;
+    margin: 0 auto;
+}
+
+.container-navbar {
+    background-color: rgba(14, 134, 255, 0.884);
+    color: white;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex; 
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    
+}
+
+.li-navbar {
+    list-style-type: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background: black;
+    
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1-footer {
+    font-size: 40px;
+}
+
+.container-footer {
+    
+   background-color: gold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.satu:hover {
+   font-style: italic;
+   color: red;
+}
+
+.dua:hover {
+    font-style: italic;
+    color: red;
+}
+
+.tiga:hover {
+    font-style: italic;
+    color: red;
+}
+

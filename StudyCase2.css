@@ -1,0 +1,170 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: silver;
+    line-height: 1.65;
+}
+
+/* Latihan 1 */
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box ;
+    display: flex;
+    color: white;
+    border: solid crimson 5px;
+    border-radius: 60px;
+}
+
+.kolom-utama {
+ flex: 3;
+ order: 2;
+ padding: 0 9px;
+}
+
+.sidebar-satu {
+ flex: 1;
+ order: 1;
+ border-right: dashed crimson 5px;
+ padding-right: 9px ;
+}
+
+.sidebar-dua {
+ flex: 1;
+ order: 3;
+ border-left: dashed crimson 5px;
+ padding-left: 9px;
+}
+ 
+
+.satu:visited {
+    color: red;
+}
+
+.dua:visited {
+    color: orange;
+}
+    
+.tiga:visited { 
+    color: greenyellow;
+}
+
+.empat:visited { 
+    color: violet;
+}
+
+.lima:visited{
+   color: blue;
+}
+
+.satu:hover { 
+    color: violet;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.dua:hover {
+    color: yellow;
+    font-style: italic;
+    text-decoration: none;
+}
+    
+.tiga:hover {
+    color: orangered;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.empat:hover {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+
+}
+
+.lima:hover {
+    color: crimson;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Latihan 2 */
+.container-dua {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    border: white solid 5px;
+    border-radius: 40px 0px 40px 0px;
+    font-style: oblique;
+
+} 
+
+.layanan {
+    width: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.layanan-satu {
+    background-color: crimson; 
+    padding: 10px;   
+    width: 267px ;
+    border-radius: 40px 0 0 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-right: black 7px solid;
+}
+
+.layanan-dua {
+    background-color: gold;
+    padding: 10px;   
+    width: 267px;
+}
+
+.layanan-tiga {
+    background-color: greenyellow;
+    padding: 10px;  
+    width: 267px; 
+    border-radius: 0 0 40px 0;
+    border-left: solid black 7px;
+}
+
+/* Latihan 3 */
+
+.container-tiga{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.container-footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+

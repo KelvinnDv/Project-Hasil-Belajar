@@ -1,0 +1,82 @@
+body {
+    margin: 50px;
+    font-family: arial;
+    background-color:#00000060;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #60df39;
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.card {
+    display: inline-block;
+    width: 220px;
+    padding: 0 80px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 80px;
+    border-radius: 40px;
+    background-color: silver;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.card img {
+    float: left;
+    margin: 0 10px 0 -80px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    border: solid #60df39 3px
+}
+
+.card .nama, .card .telp {
+    display: block;
+    line-height: 20px;
+    padding: 0 5px;
+}
+
+.card .nama {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.card .telp {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.card .close {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    cursor: pointer;
+}
+
+.card:hover .close {
+    color: red;
+
+}
+
+

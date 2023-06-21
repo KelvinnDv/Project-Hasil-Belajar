@@ -1,0 +1,122 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+/*Latihan 1*/
+.container-satu {
+    width: 800px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.kolom-utama {
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-satu {
+ flex: 1;
+ order: 1;
+}
+
+.sidebar-dua {
+ flex: 1;
+ order: 3;
+}
+
+/*Latihan 2*/
+
+.container-dua {
+    width: 800px;
+    margin:50px auto ;
+}
+
+.layanan {
+    width: 33.3%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.layanan-satu {
+    background-color: aqua;
+    padding: 30px;
+}
+
+.layanan-dua {
+    background-color: crimson; 
+    padding: 30px;
+}
+
+.layanan-tiga {
+    background-color:gold ;
+    padding: 30px;
+}
+
+/* Akhir Latihan 2 */
+
+/*Latihan 3*/
+
+ .container-tiga {
+    width: 600px;
+    margin: auto;
+   
+   
+ }
+
+ .card {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: greenyellow;
+    overflow: hidden;
+ }
+
+
+ .card .header {
+    height: 150px;
+    background-color: darkgrey;
+}
+
+
+ .card .content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card2 {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: gold;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card3 {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: crimson;
+    overflow: hidden;
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 7px;
+    bottom: 5px;
+}
+
+

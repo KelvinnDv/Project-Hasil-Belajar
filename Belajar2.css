@@ -1,0 +1,21 @@
+h1 {font-family: arial,verdana,sans-serif;
+    font-variant:small-caps ;
+    font-style: italic;
+}
+
+h3 { color: blue;
+    text-decoration : underline ;
+}
+
+
+
+
+p {font-family: Georgia, 'Times New Roman', Times, serif ;
+   font-weight: bolder,lighter; 
+
+}
+
+li :first-child a { 
+   color : red ;  
+}
+

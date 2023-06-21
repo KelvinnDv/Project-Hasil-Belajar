@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url( img/KueEskrim.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}

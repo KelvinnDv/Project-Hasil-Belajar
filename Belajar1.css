@@ -1,0 +1,32 @@
+
+h1  {color: red;
+     font-family: arial;}
+
+h2  {color: yellow ;
+    font-family: arial;}
+
+h3  {color: green; 
+     font-family:arial ;}
+
+h4  {color: blue;
+     font-family: arial;}
+
+h5  {color: blueviolet;
+     font-family: arial;}
+
+h6  {color: pink;
+     font-family: arial;}
+       
+body {
+     font-family: Arial;
+}
+
+a {
+   color:red;   
+}
+
+div {
+      width: 200px;
+      height:200px ;
+      overflow: auto;
+}
