@@ -42,3 +42,4 @@ cards.forEach(function(card) {
 //*  nextElementSibling       hasil =       Element
 //*  previousSibling          hasil =       Node
 //*  previousElementSibling   hasil =       Element
+
