@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kelvin & Thirza Wedding</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="Countdown/simplyCountdown.theme.default.css"/>
+    <script src="Countdown/simplyCountdown.min.js"></script>
+
+
     <link rel="stylesheet" href="WedProject.css">
   </head>
   
@@ -17,7 +27,8 @@
         <h4>Kepada Bapak/Ibu/Saudara-Saudari/Teman-Teman</h4>
         <h1>Kelvin & Thirza</h1>
         <p>Akan melangsungkan resepsi pernikahan dalam:</p>
-        <a href="#undangan" class="btn btn-lg">Lihat Undangan</a>
+        <div class="countdown"></div>
+        <a href="#undangan" class="btn btn-lg mt-4" >Lihat Undangan</a>
     </main>
   </section>
   
@@ -34,5 +45,20 @@
       
       
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<script>
+    simplyCountdown('.countdown', {
+        year: 2023, // required
+            month: 11, // required
+            day: 7, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+    });
+</script>
 </body>
 </html>
