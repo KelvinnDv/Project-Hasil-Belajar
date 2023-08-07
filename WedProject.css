@@ -101,6 +101,11 @@ h4 {
   margin-bottom: 1rem;
 }
 
+.home p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
 /* Media Query */
 /* Laptop */
 @media (max-width: 992px) {
