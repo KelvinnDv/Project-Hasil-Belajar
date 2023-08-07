@@ -229,7 +229,7 @@ h4 {
   clear: both;
 }
 
-.timline li .timeline-image {
+.timeline li .timeline-image {
   width: 160px;
   height: 160px;
   background-color: #ccc;
@@ -237,8 +237,51 @@ h4 {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
 
+.timeline li .timeline-panel {
+  width: 40%;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  position: relative;
+  border-radius: 8px;
+  background-color: white;
+}
 
+.timeline li .timeline-panel::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  top: 80px;
+  right: -15px;
+  /* width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  right: -15px;
+  top: 70px;
+  transform: rotate(45deg);
+  z-index:-1; */
+}
+
+.timeline li .timeline-panel::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  top: 81px;
+  right: -13px;
 }
 
 /* Media Query */
