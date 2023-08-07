@@ -284,6 +284,14 @@ h4 {
   right: -13px;
 }
 
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+}
+
+.timeline li .timeline-panel::before {
+  
+}
+
 /* Media Query */
 /* Extra Large */
 @media (max-width: 1200px) {
