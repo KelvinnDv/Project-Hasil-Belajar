@@ -180,5 +180,23 @@
             },
     });
 </script>
+
+<script>
+  const hamburger = document.querySelector('.navbar-toggler');
+  const stickyTop = document.querySelector('.sticky-top');
+  const offcanvas = document.querySelector('.offcanvas');
+
+  offcanvas.addEventListener('show.bs.offcanvas',function() {
+    stickyTop.style.overlow = 'visible';
+  });
+
+  offcanvas.addEventListener('hidden.bs.offcanvas',function() {
+    stickyTop.style.overlow = 'hidden';
+  });
+
+
+</script>
+
+
 </body>
 </html>
