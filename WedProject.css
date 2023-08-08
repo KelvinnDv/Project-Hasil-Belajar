@@ -282,24 +282,6 @@ h4 {
   border-bottom: 14px solid transparent;
   top: 81px;
   right: -13px;
-} 
-
- .timeline li.timeline-inverted .timeline-panel {
-  float: right;
-}
-
-.timeline li.timeline-inverted .timeline-panel::before {
-  border-left-width:0 ;
-  border-right-width:15 ;
-  left: -15px;
-  right: auto;
-}
-
-.timeline li.timeline-inverted .timeline-panel::after {
-  border-left-width:0 ;
-  border-right-width:14px ;
-  left: -13px;
-  right: auto;  
 }
 
 /* Media Query */
