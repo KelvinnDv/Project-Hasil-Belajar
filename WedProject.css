@@ -273,7 +273,6 @@ h4 {
 }
 
 
-
 .timeline li .timeline-panel::after {
   content: '';
   position: absolute;
@@ -285,6 +284,8 @@ h4 {
   top: 81px;
   right: -13px;
 }
+
+
 
 /* Media Query */
 /* Extra Large */
