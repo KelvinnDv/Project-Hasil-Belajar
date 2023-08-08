@@ -298,8 +298,8 @@ h4 {
 
 .timeline li.timeline-inverted .timeline-panel::after {
   border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
+  border-right-width: 14px;
+  left: -13px;
   right: auto;
 }
 
