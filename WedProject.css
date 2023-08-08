@@ -272,6 +272,8 @@ h4 {
   z-index:-1; */
 }
 
+
+
 .timeline li .timeline-panel::after {
   content: '';
   position: absolute;
