@@ -90,7 +90,8 @@ h4 {
 
 .home h2,
 .info h2,
-.story h2 {
+.story h2,
+.gallery h2 {
   color: var(--pink);
   font-family: 'sacramento', cursive;
   font-size: 5rem;
@@ -178,12 +179,14 @@ h4 {
   font-weight: 300;
 }
 
-.story {
+.story,
+.gallery {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
 
-.story span {
+.story span,
+.gallery span  {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -192,7 +195,8 @@ h4 {
   margin-bottom: 1rem;
 }
 
-.story p {
+.story p,
+.gallery p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -301,6 +305,10 @@ h4 {
   border-right-width: 14px;
   left: -13px;
   right: auto;
+}
+
+.gallery {
+  background-color: #ffd4e6;
 }
 
 
