@@ -357,39 +357,41 @@ h4 {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
+    right: auto;
   }
 
   .timeline li .timeline-panel::after {
     border-left-width: 0;
     border-right-width: 14px;
     left: -13px;
+    right: auto;
   }
 }
 /* Tab */
-@media (max-width: 786px) {
-    html {
-    font-size: 65%;
-  }
+@media (max-width: 768px) {
+      html {
+      font-size: 65%;
+    }
 
-  .simply-countdown > .simply-section {
-    padding: 60px;
-    margin: 5px;
-  }
+    .simply-countdown > .simply-section {
+      padding: 60px;
+      margin: 5px;
+    }
 
-  .mynavbar .nav-link {
-    /* font-weight: 600; */
-    font-size: 2rem;
-    text-align: center;
-  }
+    .mynavbar .nav-link {
+      /* font-weight: 600; */
+      font-size: 2rem;
+      text-align: center;
+    }
 
-  .sticky-top {
-    overflow: hidden  ;
-  }
+    .sticky-top {
+      overflow: hidden  ;
+    }
 
-  .timeline li .timeline-image {
-    width: 140px;
-    height: 140px;
-  }
+    .timeline li .timeline-image {
+      width: 100px;
+      height: 100px;
+    }
 }
 /* Mobile Phone */
 @media (max-width: 576px) {
