@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink  ;
+}
+
+/* body {
+    background-image:url(Image\ Project/Akhwat.png);
+    background-repeat: no-repeat;
+    background-position: top center ;
+} */
+
+li,a,button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+   
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 10%;
+}
+
+
+
+nav li a {
+    text-align: center;
+}
+
+.gabungan h3 {
+    font-family: cursive;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+    color: white;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding:  0px 20px;
+    color: white;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.nav_links li a:hover {
+   color: white;
+   background-color: hotpink;
+   border: none;
+   border-radius: 50px;
+   transition: all 0.3s ease 0s;
+   padding: 9px ;
+}
+
+button {
+    padding: 9px 25px;
+    background-color:hotpink;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+button:hover {
+    color: pink;
+    padding: 15px 30px;
+}
+
