@@ -11,7 +11,7 @@ html,body {
 }
 
 body {
-    background-color: crimson;
+    background-color: rgb(163, 161, 161);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,7 @@ body {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     visibility: hidden;
+    background-color: #111;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,10 +77,11 @@ body {
 
 .card-info {
     z-index: 2;
-    background-color: #fff;
+    background-color: #111;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     padding: 16px 24px 24px 24px;
+    color: white;
 }
 
 .card-category {
@@ -107,7 +109,7 @@ body {
 .card-admin {
     font-weight: 600;
     text-decoration: none;
-    color: crimson;
+    color: skyblue;
 
 }
 
