@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: red;
+}
+
 body {
     /* min-height: 2000px; */
     background-color: pink;
@@ -24,7 +28,7 @@ li,a,button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     padding: 30px 10%;
     backdrop-filter: blur(15px);
