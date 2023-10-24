@@ -46,7 +46,7 @@ body {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     visibility: hidden;
-    background-color: #111;
+    /* background-color: #111; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,11 +77,11 @@ body {
 
 .card-info {
     z-index: 2;
-    background-color: #111;
+    background-color: white;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     padding: 16px 24px 24px 24px;
-    color: white;
+    color: #111;
 }
 
 .card-category {
@@ -132,6 +132,7 @@ body {
 
 .card-like {
     width: 18px;
+    /* fill: red; */
 }
 
 .card-book-info {
@@ -146,7 +147,7 @@ body {
 
 .card-mapel {
     font-size: 12px;
-    color: crimson;
+    color: red;
     vertical-align: middle;
     margin-left: 5px;
 

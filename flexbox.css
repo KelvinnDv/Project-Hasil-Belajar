@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: silver;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    box-sizing: border-box;
+    color: wheat;
+    display: flex;
+}
+
+.navbar-utama {
+    flex: 3;
+    order: 2;
+    padding: 0 30px;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+    text-decoration: none;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+}
+
+.sidebar-satu ul li a {
+    text-decoration: none;
+    /* list-style-type: none; */
+}
+
+.sidebar-satu ul li {
+    list-style-type:none ;
+}
+
+/* Latihan 2 */
+.container-dua {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.layanan {
+    width: 30%;
+    padding: 20px; 
+    /* box-sizing: border-box; */
+}
+
+.layanan-satu  {
+    background-color: crimson;
+}
+
+.layanan-dua {
+    background-color: gold;
+}
+
+.layanan-tiga {
+    background-color: greenyellow;
+}
